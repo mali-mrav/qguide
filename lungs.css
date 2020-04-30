@@ -1,0 +1,28 @@
+#informacija {
+    width: 84%;
+    height: 75%;
+    top: 7%;
+    left: 8%;
+}
+
+
+
+
+
+
+
+#strelica_dole_3 {
+    position: absolute;
+    top: 92%;
+    left: 48%;
+    border: solid 0px black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    animation: bounce 2s infinite running;
+    /* @keyframes bounce parametre sam sklonio u glavni css fajl */
+}
+
+#strelica_dole_2:hover {
+    animation-play-state: paused;
+}

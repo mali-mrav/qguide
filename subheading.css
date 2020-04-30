@@ -1,0 +1,81 @@
+#kutija_slika {
+    position: absolute;
+    border: solid 1px black;
+    width: 25%;
+    height: 35%;
+    top: 7%;
+    left: 8%;
+
+    background-image: url("images/quran.jpg");
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.kutije {
+    position: absolute;
+    border: solid 1px gray;
+    background-color: hsla(43, 100%, 10%, 0.22);  
+/*    padding: 10px 25px 20px 25px; */
+    color: rgb(51, 51, 51);
+    overflow:hidden;
+}
+
+.kutije:nth-child(3):hover,
+.kutije:nth-child(4):hover,
+.kutije:nth-child(5):hover {
+    filter: brightness(0.3);
+}
+
+.kutije p {
+    margin: 22px 19px 17px 19px;
+}
+
+.kutije h4, h5, h2 {
+    text-align: center;
+}
+
+#kutija_info {
+    width: 54.5%;
+    height: 35%;
+    top: 7%;
+    left: 37.5%;
+}
+
+#kutija_vjerovanje {
+    width: 25%;
+    height: 35%;
+    top: 50%;
+    left: 8%;
+}
+
+#kutija_poslanici {
+    width: 25%;
+    height: 35%;
+    top: 50%;
+    left: 37.5%;
+}
+
+#kutija_vodic {
+    width: 25%;
+    height: 35%;
+    top: 50%;
+    right: 8%;
+}
+
+#strelica_dole_2 {
+    position: absolute;
+    top: 92%;
+    left: 48%;
+    border: solid 0px black;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    animation: bounce 2s infinite running;
+    /* @keyframes bounce parametre sam sklonio u glavni css fajl */
+}
+
+#strelica_dole_2:hover {
+    animation-play-state: paused;
+}
+

@@ -1,0 +1,129 @@
+#contact_sehara {
+    width: 84%;
+    height: 75%;
+    top: 7%;
+    left: 8%;
+}
+
+#contact_lijeva {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+
+    top: 15%;
+    left: 10%;
+    border: solid 0px black;
+    background-color: rgba(128, 128, 128);
+    color: honeydew;
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+}
+
+.contact_lijeva p {
+    margin: 22px 19px 17px 19px;
+}
+
+#contact_desna {
+    position: absolute;
+    width: 40%;
+    height: 70%;
+
+    top: 15%;
+    left: 50%;
+    border: solid 0px black;
+    background-color: honeydew;
+
+    color: rgb(51, 51, 51);
+    overflow:hidden;
+
+    font-size: 14px;
+   /*  color: rgba(128, 128, 128); */
+}
+
+
+
+/* ISPOD PISEM CSS ZA KONTAKT INPUTE */
+
+input[type="text"]{
+    width: 80%;
+    left: 10%;
+    border: solid 1px rgb(51, 51, 51);
+    margin: 1px 0px 5px 10%;
+    padding: 5px;
+}
+
+input[type="text"]:hover{
+    border: solid 1px orange;
+}
+
+input[type="text"]:focus{
+    border: solid 2px black;
+}
+
+textarea[name="message"]{
+    position: relative;
+    width: 80%;
+
+    left: 10%;
+    padding: 5px;
+    border: solid 1px rgb(51, 51, 51);
+    margin: 0px 0px 5px 0px;
+    resize: none;
+}
+
+textarea[name="message"]:hover{
+    border: solid 1px orange;
+}
+
+textarea[name="message"]:focus{
+    border: solid 1px black;
+}
+
+input[type="submit"]{
+    position: absolute;
+    right: 7%;
+
+    padding: 6px;
+    border: solid 1px rgb(51, 51, 51);
+    background-color: rgb(51, 51, 51);
+    margin: 1px 0px 10px 0px; 
+    color: white;
+}
+
+input[type="submit"]:hover{
+    border: solid 1px orange;
+    cursor: pointer;
+}
+
+input[type="submit"]:focus{
+    border: solid 1px black;
+}
+
+input[type="submit"]:active{
+    border: solid 1px black;
+}
+
+/* OVDJE JE KRAJ CSS INPUTA */
+
+
+
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0px 0px 0px;
+
+    width: 100%;
+    height: 45px;
+
+    text-align: center;
+
+    border: solid 0px black;
+    border-top: solid 1px gray;
+
+    font-family: "Varela Round", sans-serif;
+    font-size: 14px;
+
+    background-color: hsla(43, 100%, 10%, 0.05);  
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="subheading.css">
+        <link rel="stylesheet" href="lungs.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="images/q.gif" type="image/gif" sizes="16x16">
+
+        <title>Wireframe</title>
+
+    </head>
+
+    <body>
+        <div id="heading" class="sekcije">
+            <div id="meni">
+                <div id="mali_logo"><a href="index.html"><span style="color: #b1a93b" font-size="28">Q</span> - G u i d e</a></div>
+
+                <div id="linkovi">                       
+                    <span id="linkovi_tekst">
+                            <a href="vjerovanje.html">VJEROVANJE</a>
+                            <a href="poslanici.html">POSLANICI</a>
+                            <a href="vodic.html">VODIČ</a>
+                            <a href="arebica.html">AREBICA</a>
+                            <a href="kontakt.html">KONTAKT</a>
+                    </span>
+                </div>
+
+                <div id="hamburger">IIIII</div>
+            </div>
+
+        <div id="sredina">
+            <div id="logo"><img src="images/logo.png" id="logo_slika">  </div>
+            <div id="citat"></div>
+            <div id="strelica_1"><a id="scroll-down-arrow-1" href="#subheading"><img src="images/strelica.png" id="strelica_dole_1" width="11%"></a></div>
+
+            
+        </div>
+
+        </div>
+
+        <div id="subheading" class="sekcije">
+            <div id="kutija_slika"></div>
+            <div id="kutija_info" class="kutije"><p>Info o stranici<br>Ovdje pisemo neki tekst gdje objasnjavamo sustinu postojanja ovoga sajta.</p></div>
+            <div id="kutija_vjerovanje" class="kutije" onclick="location.href='vjerovanje.html';" style="cursor: pointer;"><h4>VJEROVANJE</h4><p>Ovdje pisemo sta je sustina vjerovanja.</p><p class="citaj">Čitaj ovdje...</p></div>
+            <div id="kutija_poslanici" class="kutije" onclick="location.href='poslanici.html';" style="cursor: pointer;"><h4>POSLANICI</h4><p>Ovdje pisemo na jasan nacin ko su sve bili poslanici i koja je bila njihova uloga na ovome svijetu.</p></div>
+            <div id="kutija_vodic" class="kutije" onclick="location.href='vodic.html';" style="cursor: pointer;"><h4>VODIC KROZ SURE</h4><p>Ovdje pisemo ukratko o vodicu kroz sure a na linku ispod ce postojati direktan put do opisa.</p></div>
+
+            <div id="strelica_2"><a id="scroll-down-arrow-2" href="#lungs"><img src="images/strelica.png" id="strelica_dole_2" width="11%"></a></div>
+
+            
+        </div>
+
+        <div id="lungs" class="sekcije">
+            <div id="informacija" class="kutije"><p>Ovdje cemo da opisemo Islam i slicno tome.</p></div>
+
+
+            <div id="strelica_3"><a id="scroll-down-arrow-3" href="#contact"><img src="images/strelica.png" id="strelica_dole_3" width="11%"></a></div>
+            
+        </div>
+
+        <div id="contact" class="sekcije">
+
+            <div id="contact_sehara" class="kutije">
+                <div id="contact_lijeva"><h2>Kontaktirajte nas</h2><p>Ovdje ce pisati tekst o tome da svako moze i treba da nas kontaktira ukoliko ima pitanja ili zeli da nam da neki prijedlog.</p></div>
+                <div id="contact_desna"><h2>Pošaljite poruku</h2>
+                    <form id="contact-form" method="post" action="contact-form-handler.php">                      
+                        <input type="text" name="name" id="name" class="form-control" placeholder="ime" autocomplete="off" required>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="e-mail" autocomplete="off" required>
+                        <textarea name="message" class="form-control" rows="6" minlength="10" maxlength="20" form="usrform" placeholder="Poruka..." required></textarea><br>
+                        <input type="submit" name="submit" class="form-control submit" id="submit" value="POŠALJI">
+                        </form>
+                </div>
+            </div>
+
+
+            <div id="footer">2020 © <a href="index.html"><span style="color: #b1a93b" font-size="14">Q</span> - G u i d e</a>&nbsp;&nbsp; | &nbsp;&nbsp; KONTAKT &nbsp;&nbsp;|&nbsp;&nbsp; INFO </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+    </body>
