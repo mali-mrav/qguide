@@ -1,7 +1,34 @@
 @media only screen and (max-width: 600px) 
 {
-    #linkovi {
+    #linkovi, #strelica_1, #strelica_2, #strelica_3 {
       display: none;
+    }
+
+    .sekcije {
+        
+    }
+
+    #mali_logo {
+        position: absolute;
+        width: 25%;
+        margin-left: 5px;
+        height: 30px;
+        border: solid 0px black;
+    
+        padding-left: 6%;
+        padding-top: 13px;
+    }
+
+    #hamburger {
+        position: absolute;
+        width: 25%;
+        margin-left: 70%;
+        height: 30px;
+        border: solid 0px black;
+    
+        padding-right: 6%;
+        padding-top: 13px; 
+        text-align: right;
     }
 
     #logo_slika {
@@ -11,17 +38,34 @@
         left: 20%;  
     }
 
-    #hamburger {
+    #citat {
         position: absolute;
-        width: 19%;
-        margin-left: 80%;
-        height: 30px;
+        width: 100%;
+        height: 7%;
+        top: 40%;
+        left: 0px;
+        color: black;
         border: solid 0px black;
+        text-align: center;
+        font-size: 15px;
+        font-style: italic;
     
-        padding-right: 1%;
-        padding-top: 13px; 
-        text-align: right;
     }
+
+    #kutija_slika {
+        position: relative;
+        border: solid 1px black;
+        width: 74%;
+        height: 70%;
+        top: 1%;
+        left: 8%;
+    
+        background-image: url("images/quran.jpg");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    
 
 
 }
