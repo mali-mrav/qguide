@@ -1,11 +1,7 @@
 @media only screen and (max-width: 600px) 
 {
-    #linkovi, #strelica_1, #strelica_2, #strelica_3 {
+    #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva {
       display: none;
-    }
-
-    .sekcije {
-        
     }
 
     #mali_logo {
@@ -52,12 +48,20 @@
     
     }
 
+    .sekcije {
+        position: unset;
+        width: 100%;
+        height: 100vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
     #kutija_slika {
-        position: relative;
+        position: absolute;
         border: solid 1px black;
-        width: 74%;
-        height: 70%;
-        top: 1%;
+        width: 84%;
+        height: 30%;
+        top: 50%;
         left: 8%;
     
         background-image: url("images/quran.jpg");
@@ -65,7 +69,93 @@
         background-repeat:no-repeat;
         background-size:cover;
     }
+
+    #kutija_info {
+        width: 84%;
+        height: 35%;
+        top: 84%;
+        left: 8%;
+    }
+
+    #kutija_vjerovanje {
+        width: 84%;
+        height: 35%;
+        top: 121%;
+        left: 8%;
+    }
+
+    #kutija_poslanici {
+        width: 84%;
+        height: 35%;
+        top: 158%;
+        left: 8%;
+    }
+
+    #kutija_vodic {
+        width: 84%;
+        height: 35%;
+        top: 195%;
+        right: 8%;
+    }
+
+    #informacija {
+        width: 84%;
+        height: 75%;
+        top: 232%;
+        left: 8%;
+    }
+
+
+    #contact_sehara {
+        width: 84%;
+        height: 75%;
+        top: 309%;
+        left: 8%;
+    }
+
     
+    
+    #contact_desna {
+
+        width: 84%;
+        height: 70%;
+    
+        top: 309%;
+        left: 8%;
+        border: solid 0px black;
+        background-color: rgb(246,245,242);
+    
+        color: rgb(51, 51, 51);
+        overflow:hidden;
+    
+        font-size: 14px;
+        z-index: 1;
+       /*  color: rgba(128, 128, 128); */
+    }
+
+    
+
+    #footer {
+
+        bottom: 0%;
+        padding: 5px 0px 0px 0px;
+    
+        width: 100%;
+        height: 45px;
+        top: 393%;
+    
+        text-align: center;
+    
+        border: solid 0px black;
+        border-top: solid 1px gray;
+    
+        font-family: "Varela Round", sans-serif;
+        font-size: 14px;
+    
+        background-color: hsla(43, 100%, 10%, 0.05);  
+    }
+
+
 
 
 }
