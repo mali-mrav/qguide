@@ -29,16 +29,16 @@
 
     #logo_slika {
         position: absolute;
-        width: 60%;
+        width: 40%;
         top: 10%;
-        left: 20%;  
+        left: 30%;  
     }
 
     #citat {
         position: absolute;
         width: 96%;
         height: 7%;
-        top: 35%;
+        top: 31%;
         left: 2%;
         color: black;
         border: solid 0px black;
@@ -147,8 +147,8 @@
 
     #contact_sehara {
         width: 96%;
-        height: 37%;
-        top: 50%;
+        height: 42%;
+        top: 46%;
         left: 2%;
     }
 
