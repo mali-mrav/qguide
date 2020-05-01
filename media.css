@@ -1,0 +1,16 @@
+@media only screen and (max-width: 414px) 
+{
+    #meni {
+      display: none;
+    }
+
+    #logo_slika {
+        position: absolute;
+        width: 60%;
+        top: 30%;
+        left: 20%;  
+    }
+
+
+}
+
