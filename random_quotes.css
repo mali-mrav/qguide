@@ -1,0 +1,10 @@
+.quote-container
+  { 
+      display: none;
+  }
+
+.quote-author
+  { 
+      font-style: normal;
+      font-size: 12px;
+  }

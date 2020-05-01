@@ -63,13 +63,19 @@ html {
 }
 
 #meni {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 35px;
     margin-top: 0px;
     border: solid 0px black; 
-    background-color: hsla(43, 100%, 10%, 0.05);  
-}
+ /*   background-color: hsla(43, 100%, 10%, 0.05); */
+    z-index: 1;
+
+    
+     background-image: url('images/pozadina_fill19_2.jpg');
+     background-position:center;
+     background-repeat:repeat;
+ }
 
 #mali_logo {
     position: absolute;
@@ -145,9 +151,14 @@ a:active {
 #citat {
     position: absolute;
     width: 100%;
-    height: 30%;
+    height: 7%;
     top: 60%;
     left: 0px;
+    color: black;
+    border: solid 0px black;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
 
 }
 
@@ -159,7 +170,7 @@ a:active {
 #strelica_1 {
     position: absolute;
     width: 100%;
-    top: 88%;
+    top: 93%;
     left: 0;
     border: solid 0px black;
     text-align: center;
@@ -191,6 +202,3 @@ a:active {
     100% { transform: scale(1,1)    translateY(0); }
 }
 
-.quotes {
-    display: none;
-}
