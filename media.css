@@ -56,6 +56,29 @@
         margin: 0px 0px 0px 0px;
     }
 
+    #contact {
+        position: unset;
+        width: 100%;
+        height: 0vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
+    #lungs {
+        position: unset;
+        width: 100%;
+        height: 0vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+    #subheading {
+        position: unset;
+        width: 100%;
+        height: 0vh;
+        border: solid 0px black; 
+        margin: 0px 0px 0px 0px;
+    }
+
 /*    #kutija_slika {
          position: absolute;
         border: solid 1px black;
@@ -152,13 +175,12 @@
     
 
     #footer {
-
         bottom: 0%;
         padding: 5px 0px 0px 0px;
     
         width: 100%;
         height: 45px;
-        top: 170%;
+        top: 146%;
     
         text-align: center;
     
