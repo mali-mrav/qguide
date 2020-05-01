@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) 
 {
-    #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva {
+    #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija {
       display: none;
     }
 
@@ -38,7 +38,7 @@
         position: absolute;
         width: 100%;
         height: 7%;
-        top: 40%;
+        top: 39%;
         left: 0px;
         color: black;
         border: solid 0px black;
@@ -56,60 +56,60 @@
         margin: 0px 0px 0px 0px;
     }
 
-    #kutija_slika {
-        position: absolute;
+/*    #kutija_slika {
+         position: absolute;
         border: solid 1px black;
         width: 84%;
         height: 30%;
-        top: 52%;
+        top: 53%;
         left: 8%;
     
         background-image: url("images/quran.jpg");
         background-position:center;
         background-repeat:no-repeat;
         background-size:cover;
-    }
+    } */
 
     #kutija_info {
-        width: 84%;
+        width: 94%;
         height: 35%;
-        top: 84%;
-        left: 8%;
+        top: 56%;
+        left: 3%;
     }
 
-    #kutija_vjerovanje {
+    /* #kutija_vjerovanje {
         width: 84%;
         height: 35%;
-        top: 121%;
+        top: 122%;
         left: 8%;
     }
 
     #kutija_poslanici {
         width: 84%;
         height: 35%;
-        top: 158%;
+        top: 159%;
         left: 8%;
     }
 
     #kutija_vodic {
         width: 84%;
         height: 35%;
-        top: 195%;
+        top: 196%;
         right: 8%;
     }
 
     #informacija {
         width: 84%;
         height: 75%;
-        top: 232%;
+        top: 233%;
         left: 8%;
-    }
+    } */
 
 
     #contact_sehara {
         width: 84%;
         height: 75%;
-        top: 309%;
+        top: 310%;
         left: 8%;
     }
 
@@ -120,7 +120,7 @@
         width: 84%;
         height: 70%;
     
-        top: 309%;
+        top: 310%;
         left: 8%;
         border: solid 0px black;
         background-color: rgb(246,245,242);
@@ -142,7 +142,7 @@
     
         width: 100%;
         height: 45px;
-        top: 393%;
+        top: 394%;
     
         text-align: center;
     
