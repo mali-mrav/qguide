@@ -1,14 +1,26 @@
 @media only screen and (max-width: 600px) 
 {
-    #meni {
+    #linkovi {
       display: none;
     }
 
     #logo_slika {
         position: absolute;
         width: 60%;
-        top: 30%;
+        top: 10%;
         left: 20%;  
+    }
+
+    #hamburger {
+        position: absolute;
+        width: 19%;
+        margin-left: 80%;
+        height: 30px;
+        border: solid 0px black;
+    
+        padding-right: 1%;
+        padding-top: 13px; 
+        text-align: right;
     }
 
 
