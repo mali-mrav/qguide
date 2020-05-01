@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) 
 {
-    #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija {
+    #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info {
       display: none;
     }
 
@@ -38,7 +38,7 @@
         position: absolute;
         width: 96%;
         height: 7%;
-        top: 39%;
+        top: 35%;
         left: 2%;
         color: black;
         border: solid 0px black;
@@ -107,14 +107,14 @@
         margin: 22px 19px 17px 19px;
     }
 
-    #kutija_info {
+    /* #kutija_info {
         background-color: hsla(43, 100%, 10%, 0);
         width: 96%;
         height: 35%;
         top: 56%;
         left: 2%;
         border-top: solid 1px gray;
-    }
+    } */
 
     /* #kutija_vjerovanje {
         width: 84%;
@@ -147,8 +147,8 @@
 
     #contact_sehara {
         width: 96%;
-        height: 50%;
-        top: 93%;
+        height: 37%;
+        top: 50%;
         left: 2%;
     }
 
@@ -180,7 +180,7 @@
     
         width: 100%;
         height: 45px;
-        top: 146%;
+        top: 89%;
     
         text-align: center;
     
@@ -188,7 +188,7 @@
         border-top: solid 1px gray;
     
         font-family: "Varela Round", sans-serif;
-        font-size: 14px;
+        font-size: 11px;
     
         background-color: hsla(43, 100%, 10%, 0.05);  
     }
