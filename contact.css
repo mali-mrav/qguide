@@ -17,6 +17,7 @@
     color: rgb(246,245,242);
     font-family: "Varela Round", sans-serif;
     font-size: 14px;
+    z-index: 1;
 }
 
 .contact_lijeva p {
