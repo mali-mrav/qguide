@@ -29,3 +29,7 @@ function showRandomQuotes()
   showNextQuote();
 
 }
+
+
+
+
