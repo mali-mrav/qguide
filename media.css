@@ -71,6 +71,7 @@
         border: solid 0px black; 
         margin: 0px 0px 0px 0px;
     }
+
     #subheading {
         position: unset;
         width: 100%;
@@ -97,7 +98,7 @@
     .kutije {
         position: absolute;
         border: solid 0px gray;
-        background-color: hsla(43, 100%, 10%, 0.13);  
+        background-color: hsla(44, 100%, 10%, 0);  
     /*    padding: 10px 25px 20px 25px; */
         color: rgb(51, 51, 51);
         overflow:hidden;
@@ -105,6 +106,21 @@
 
     .kutije p {
         margin: 22px 19px 17px 19px;
+    }
+
+    #contact_lijeva {
+        position: absolute;
+        width: 40%;
+        height: 70%;
+    
+        top: 15%;
+        left: 10%;
+        border: solid 0px black;
+    /*    background-color: rgba(128, 128, 128); */
+        color: rgb(246,245,242);
+        font-family: "Varela Round", sans-serif;
+        font-size: 14px;
+        z-index: 1;
     }
 
     /* #kutija_info {
@@ -162,7 +178,7 @@
         top: 0%;
         left: 0;
         border: solid 0px black;
-        background-color: rgb(246,245,242);
+
     
         color: rgb(51, 51, 51);
         overflow:hidden;
@@ -205,8 +221,9 @@
         padding: 5px;
     }
 
-
-
+  #footer a {
+        font-size: 11px;
+    }
 
 }
 
