@@ -329,7 +329,7 @@ body {
   
   /* 48em = 768px */
   
-  @media (min-width: 991px) {
+  @media (min-width: 992px) {
     .header li {
       float: left;
     }
