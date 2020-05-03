@@ -236,7 +236,7 @@
 /* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600PX DO 992px */
 /* PROMJENJEN (SMANJEN JE %) LOGOTIPA */
 
-@media only screen and (max-width: 992px) 
+@media only screen and (min-width: 992px) 
 {
     #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #contact_sehara, #contact_desna, #meni {
       display: none;
