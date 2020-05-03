@@ -474,226 +474,156 @@
 
 @media only screen and (orientation: landscape) 
 {
-    #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #contact_sehara, #contact_desna, #meni {
+    #linkovi, #strelica_1, #strelica_2, #strelica_3, #meni {
       display: none;
     }
 
-    #mali_logo {
-        position: absolute;
-        width: 25%;
-        margin-left: 5px;
-        height: 30px;
-        border: solid 0px black;
-    
-        padding-left: 6%;
-        padding-top: 13px;
-    }
-
-    #hamburger {
-        position: absolute;
-        width: 25%;
-        margin-left: 70%;
-        height: 30px;
-        border: solid 0px black;
-    
-        padding-right: 6%;
-        padding-top: 13px; 
-        text-align: right;
-    }
-
-    #logo_slika {
-        position: absolute;
-        width: 30%;
-        top: 17%;
-        left: 35%;  
-    }
-
-    #citat {
-        position: absolute;
-        width: 96%;
-        height: 7%;
-        top: 50%;
-        left: 2%;
-        color: black;
-        border: solid 0px black;
-        text-align: center;
-        font-size: 26px;
-        font-style: italic;
-    
-    }
-
     .sekcije {
-        position: unset;
+        position: relative;
         width: 100%;
         height: 100vh;
         border: solid 0px black; 
         margin: 0px 0px 0px 0px;
     }
-
-    #contact {
-        position: unset;
-        width: 100%;
-        height: 0vh;
-        border: solid 0px black; 
-        margin: 0px 0px 0px 0px;
-    }
-
-    #lungs {
-        position: unset;
-        width: 100%;
-        height: 0vh;
-        border: solid 0px black; 
-        margin: 0px 0px 0px 0px;
-    }
-
-    #subheading {
-        position: unset;
-        width: 100%;
-        height: 0vh;
-        border: solid 0px black; 
-        margin: 0px 0px 0px 0px;
-    }
-
-/*    #kutija_slika {
-         position: absolute;
-        border: solid 1px black;
-        width: 84%;
-        height: 30%;
-        top: 53%;
-        left: 8%;
     
-        background-image: url("images/quran.jpg");
-        background-position:center;
-        background-repeat:no-repeat;
-        background-size:cover;
-    } */
-
-
-    .kutije {
-        position: absolute;
-        border: solid 0px gray;
-     /*   background-color: hsla(44, 100%, 10%, 0);  */
-    /*    padding: 10px 25px 20px 25px; */
-        color: rgb(51, 51, 51);
-        overflow:hidden;
-    }
-
-    .kutije p {
-        margin: 22px 19px 17px 19px;
-    }
-
-    #contact_lijeva {
-        position: absolute;
-        width: 40%;
-        height: 70%;
-    
-        top: 15%;
-        left: 10%;
-        border: solid 0px black;
-    /*    background-color: rgba(128, 128, 128); */
-        color: rgb(246,245,242);
-        font-family: "Varela Round", sans-serif;
-        font-size: 14px;
+    #meni {
+        position: fixed;
+        width: 100%;
+        height: 35px;
+        margin-top: 0px;
+        border: solid 0px black; 
+     /*   background-color: hsla(43, 100%, 10%, 0.05); */
         z-index: 1;
+    
+        
+         background-image: url('images/pozadina_2.jpg');
+         background-position:center;
+         background-repeat:repeat;
+     }
+    
+    #mali_logo {
+        position: absolute;
+        width: 20%;
+        margin-left: 0px;
+        height: 30px;
+        border: solid 0px black;
+    
+        padding-left: 1.5%;
+        padding-top: 13px;
     }
-
-    /* #kutija_info {
-        background-color: hsla(43, 100%, 10%, 0);
-        width: 96%;
-        height: 35%;
-        top: 56%;
-        left: 2%;
-        border-top: solid 1px gray;
-    } */
-
-    /* #kutija_vjerovanje {
-        width: 84%;
-        height: 35%;
-        top: 122%;
-        left: 8%;
+    
+    #linkovi {
+        position: absolute;
+        width: 60%;
+        margin-left: 20%;
+        height: 30px; 
+        border: solid 0px black;
+    
+        color: brown;
+        word-spacing: 55px;
+        padding-top: 13px;
+        
+        text-align: center;
     }
-
-    #kutija_poslanici {
-        width: 84%;
-        height: 35%;
-        top: 159%;
-        left: 8%;
+    
+    a:link {
+        color: rgb(51, 51, 51);
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+    
+        transition: color 0.1s linear;
+        -webkit-transition: color 0.22s linear;
+        -moz-transition: color 0.1s linear;
     }
-
-    #kutija_vodic {
-        width: 84%;
-        height: 35%;
-        top: 196%;
-        right: 8%;
-    }
-
-    #informacija {
-        width: 84%;
-        height: 75%;
-        top: 233%;
-        left: 8%;
-    } */
-
-
-    /* #contact_sehara {
-        width: 96%;
-        height: 42%;
-        top: 46%;
-        left: 2%;
-    }
-
     
     
-    #contact_desna {
-
+    a:visited {
+        color: rgb(51, 51, 51);
+        font-family: 'Rubik', sans-serif;
+        font-size: 15px;
+    }
+    
+    a:hover {
+        color: rgb(143, 142, 142);
+    
+    }
+    
+    a:active {
+        color: rgb(133, 133, 133);
+    }
+    
+    #hamburger {
+        position: absolute;
+        width: 19%;
+        margin-left: 80%;
+        height: 30px;
+        border: solid 0px black;
+    
+        padding-right: 1%;
+        padding-top: 13px; 
+        text-align: right;
+    }
+    
+    #logo_slika {
+        position: absolute;
+        width: 21%;
+        top: 30%;
+        left: 40%;  
+    }
+    
+    #citat {
+        position: absolute;
         width: 100%;
-        height: 100%;
+        height: 7%;
+        top: 60%;
+        left: 0px;
+        color: black;
+        border: solid 0px black;
+        text-align: center;
+        font-size: 20px;
+        font-style: italic;
     
-        top: 0%;
+    }
+    
+    
+    #form {
+        text-align: center;
+    }
+    
+    #strelica_1 {
+        position: absolute;
+        width: 100%;
+        top: 93%;
         left: 0;
         border: solid 0px black;
-
-    
-        color: rgb(51, 51, 51);
-        overflow:hidden;
-    
-        font-size: 14px;
-        z-index: 1;
-        color: rgba(128, 128, 128); 
-    } */
-
-    h2 {
-        font-size: 12px;
-    }
-
-    
-
-    #footer {
-        position: absolute;
-        bottom: 0%;
-        padding: 5px 0px 0px 0px;
-    
-        width: 100%;
-        height: 45px;
-       /*  top: 89%; */
-    
         text-align: center;
+    }
+    
+    #strelica_dole_1 {
+        position: relative;
+    
     
         border: solid 0px black;
-        border-top: solid 1px gray;
+        width: 30px;
+        height: 30px;
     
-        font-family: "Varela Round", sans-serif;
-        font-size: 11px;
     
-        background-color: hsla(43, 100%, 10%, 0.05);  
+        animation: bounce 2s infinite running;
     }
-
-    input[type="text"]{
-        width: 80%;
-        left: 10%;
-        border: solid 1px rgb(51, 51, 51);
-        margin: 1px 0px 5px 10%;
-        padding: 5px;
+    
+    #strelica_dole_1:hover {
+        animation-play-state: paused;
+    }
+    
+    @keyframes bounce {
+        0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,.9) translateY(0); }
+        30%  { transform: scale(.9,1.1) translateY(-20px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        57%  { transform: scale(1,1)    translateY(-7px); }
+        64%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
     }
 
   #footer a {
