@@ -3,6 +3,7 @@
     height: 75%;
     top: 8.5%;
     left: 8%;
+
 }
 
 #contact_lijeva {
@@ -17,7 +18,7 @@
     color: rgb(246,245,242);
     font-family: "Varela Round", sans-serif;
     font-size: 14px;
-    z-index: 1;
+    min-height: 400px;
 }
 
 .contact_lijeva p {
@@ -28,6 +29,7 @@
     position: absolute;
     width: 40%;
     height: 70%;
+    min-height: 400px;
 
     top: 15%;
     left: 50%;
@@ -39,6 +41,7 @@
 
     font-size: 14px;
    /*  color: rgba(128, 128, 128); */
+
 }
 
 
@@ -89,6 +92,7 @@ input[type="submit"]{
     background-color: rgb(51, 51, 51);
     margin: 1px 0px 10px 0px; 
     color: white;
+ 
 }
 
 input[type="submit"]:hover{

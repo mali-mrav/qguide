@@ -144,6 +144,8 @@ a:active {
 #logo_slika {
     position: absolute;
     width: 21%;
+    max-width: 252px;
+    max-height: 21%;
     top: 30%;
     left: 40%;  
 }
