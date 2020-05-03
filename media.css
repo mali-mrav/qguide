@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 1200px) 
 {
     #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #contact_sehara, #contact_desna, #meni {
       display: none;
@@ -29,7 +29,9 @@
 
     #logo_slika {
         position: absolute;
-        width: 40%;
+        width: 38%;
+        max-width: 38%;
+        max-height: 38%;
         top: 19%;
         left: 30%;  
     }
