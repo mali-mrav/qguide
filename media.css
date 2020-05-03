@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) 
+@media only screen and (max-width: 991px) 
 {
     #linkovi, #strelica_1, #strelica_2, #strelica_3, #contact_lijeva, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #contact_sehara, #contact_desna, #meni {
       display: none;
