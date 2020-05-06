@@ -357,24 +357,36 @@ body {
       display: none;
     }
 
-    #sure {
+    #vodic_vrh {
+      position: absolute;
+      top: 80px;
+      width: 100%;
+      height: 60px;
+      border: solid 1px black;
+      
+    
+  }
+
+  #sure {
       padding: 5px;
     width: 75px;
-    margin: 10px 0px 10px 5px;
+    margin: 0px 0px 0px 0px;
     float:left; 
   }
   
   #pause {
     float:left; 
-    margin: 10px 0px 10px 5px;
+    margin: 0px 0px 0px 0px;
   
   }
   
   img {
     float: right; 
-    margin-left: 10px;
-    margin: 10px 10px 10px 0px;
+    margin-left: 0px;
+    margin: 0px 0px 0px 0px;
   }
+
+
 
   }
   
