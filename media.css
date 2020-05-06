@@ -230,6 +230,16 @@
         font-size: 11px;
     }
 
+    #vodic_vrh {
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 60px;
+        border: solid 1px black;
+        
+        float: left;
+    }
+
 }
 
 
