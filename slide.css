@@ -38,7 +38,7 @@ just for appearance; change whatever you want
 */
 
 .slide{
-	font-size: 20px;
+	font-size: 15px;
 	padding: 15px;
 	box-sizing: border-box;
 	background: none;
@@ -70,14 +70,26 @@ just for appearance; change whatever you want
     border: solid 0px black;
 }
 
-#dropdown {
+#vodic_vrh {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    top: 400px;
+    top: 45px;
+    width: 100%;
+    height: 60px;
+	border: solid 1px black;
+	
+	float: left;
 }
 
 #sure {
     padding: 5px;
-    width: 150px;
+	width: 150px;
+	margin: 10px 0px 10px 30px;
+	float:left; 
 }
+
+img {
+	float: right; 
+	margin-left: 100px;
+	margin: 10px 30px 10px 0px;
+}
+

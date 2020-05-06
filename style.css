@@ -63,6 +63,7 @@ html {
 }
 
 #meni {
+  display: none;
     position: fixed;
     width: 100%;
     height: 35px;
@@ -221,10 +222,16 @@ body {
   /* header */
   
   .header {
-    background-color: #fff;
+     background-color: #fff; 
+/*
+ background-image: url('images/pozadina_2.jpg');
+ background-position:center;
+ background-repeat:repeat; */
+
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
+    height: 34px;
  /*   height: 25%; */
     z-index: 3;
   }
@@ -239,7 +246,7 @@ body {
   
   .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 15px 20px;
     border-right: 1px solid #f4f4f4;
     text-decoration: none;
   }
@@ -253,7 +260,7 @@ body {
     display: block;
     float: left;
     font-size: 20px;
-    padding: 15px 20px;
+    padding: 7px 20px;
     text-decoration: none;
   }
   
@@ -271,7 +278,7 @@ body {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 28px 20px;
+    padding: 15px 20px;
     position: relative;
     user-select: none;
   }
@@ -339,7 +346,7 @@ body {
       float: left;
     }
     .header li a {
-      padding: 20px 30px;
+      padding: 8px 30px;
     }
     .header .menu {
       clear: none;

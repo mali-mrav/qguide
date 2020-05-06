@@ -3,7 +3,7 @@
     border: solid 1px black;
     width: 25%;
     height: 35%;
-    top: 8.5%;
+    top: 45px;
     left: 8%;
 
     background-image: url("images/quran.jpg");
@@ -40,7 +40,7 @@
 #kutija_info {
     width: 54.5%;
     height: 35%;
-    top: 8.5%;
+    top: 45px;
     left: 37.5%;
 }
 
