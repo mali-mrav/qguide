@@ -240,6 +240,25 @@
         float: left;
     }
 
+    #sure {
+        padding: 5px;
+      width: 75px;
+      margin: 10px 0px 10px 5px;
+      float:left; 
+    }
+    
+    #pause {
+      float:left; 
+      margin: 10px 0px 10px 5px;
+    
+    }
+    
+    img {
+      float: right; 
+      margin-left: 10px;
+      margin: 10px 10px 10px 0px;
+    }
+
 }
 
 
