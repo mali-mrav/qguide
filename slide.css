@@ -87,6 +87,12 @@ just for appearance; change whatever you want
 	float:left; 
 }
 
+#pause {
+	float:left; 
+	margin: 12.5px 0px 10px 30px;
+
+}
+
 img {
 	float: right; 
 	margin-left: 100px;
