@@ -230,33 +230,51 @@
         font-size: 11px;
     }
 
+
     #vodic_vrh {
         position: absolute;
-        top: 80px;
+        top: 45px;
         width: 100%;
         height: 60px;
         border: solid 1px black;
-        
-        float: left;
+        margin: 0px;
+            
     }
-
+    
     #sure {
+        position: absolute;
+        top: 5px;
+        left: 0px;
         padding: 5px;
-      width: 75px;
-      margin: 10px 0px 10px 5px;
-      float:left; 
+        width: 75px;
+        margin: 0px 5px 5px 0px;
+  
     }
     
     #pause {
-      float:left; 
-      margin: 10px 0px 10px 5px;
+        position: absolute;
+        top: 5px;
+        left: 155px;
+   
+        margin: 0px 5px 5px 5px;
     
     }
     
-    img {
-      float: right; 
-      margin-left: 10px;
-      margin: 10px 10px 10px 0px;
+    #download {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+   
+        margin-left: 0px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #slika_pdf {
+          margin: 8px 0px 0px 0px;
+    }
+
+    #slika_mp3 {
+        margin: 8px 5px 0px 0px;
     }
 
 }
@@ -268,4 +286,6 @@
 /* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600PX DO 992px */
 /* ISPOD PISEMO MEDIJU ZA REZOLUCIJU IZMEDJU 600PX DO 992px */
 /* PROMJENJEN (SMANJEN JE %) LOGOTIPA, POVECANA SU SLOVA CITATA */
+
+
 
