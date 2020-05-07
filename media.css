@@ -4,6 +4,7 @@
       display: none;
     }
 
+
     #mali_logo {
         position: absolute;
         width: 25%;
@@ -270,12 +271,14 @@
     }
 
     #slika_pdf {
-          margin: 8px 0px 0px 0px;
+          margin: 8px 10px 0px 0px;
     }
 
     #slika_mp3 {
         margin: 8px 5px 0px 0px;
     }
+
+
 
 }
 
