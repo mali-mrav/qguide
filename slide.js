@@ -12,13 +12,13 @@ var playing = true;
 var pauseButton = document.getElementById('pause');
 
 function pauseSlideshow(){
-	pauseButton.innerHTML = 'Play';
+	pauseButton.innerHTML = 'Pokreni';
 	playing = false;
 	clearInterval(slideInterval);
 }
 
 function playSlideshow(){
-	pauseButton.innerHTML = 'Pause';
+	pauseButton.innerHTML = 'Zaustavi';
 	playing = true;
 	slideInterval = setInterval(nextSlide,2000);
 }
