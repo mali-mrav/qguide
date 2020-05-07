@@ -254,7 +254,7 @@
         left: 0px;
         padding: 5px;
         width: 75px;
-        margin: 0px 5px 0px 0px;
+        margin: 3px 5px 0px 0px;
   
     }
     
@@ -277,11 +277,11 @@
     }
 
     #slika_pdf {
-          margin: 11px 10px 0px 0px;
+          margin: 13px 10px 0px 0px;
     }
 
     #slika_mp3 {
-        margin: 11px 5px 0px 0px;
+        margin: 13px 5px 0px 0px;
     }
 
 
