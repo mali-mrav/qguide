@@ -231,7 +231,7 @@ body {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    height: 34px;
+    height: 38px;
  /*   height: 25%; */
     z-index: 3;
   }
@@ -342,6 +342,8 @@ body {
   /* 48em = 768px */
   
   @media (min-width: 992px) {
+
+
     .header li {
       float: left;
     }
@@ -357,36 +359,5 @@ body {
       display: none;
     }
 
-    #vodic_vrh {
-      position: absolute;
-      top: 80px;
-      width: 100%;
-      height: 60px;
-      border: solid 1px black;
-      
-    
-  }
-
-  #sure {
-      padding: 5px;
-    width: 75px;
-    margin: 0px 0px 0px 0px;
-    float:left; 
-  }
-  
-  #pause {
-    float:left; 
-    margin: 0px 0px 0px 0px;
-  
-  }
-  
-  img {
-    float: right; 
-    margin-left: 0px;
-    margin: 0px 0px 0px 0px;
-  }
-
-
-
-  }
+ }
   
