@@ -242,6 +242,11 @@
         background-color: antiquewhite;
             
     }
+
+    #vodic_vrh img {
+        width: 28px;
+        height: 28px;;
+    }
     
     #sure {
         position: absolute;
