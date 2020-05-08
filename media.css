@@ -200,7 +200,7 @@
     
 
     #footer {
-        position: absolute;
+        position: static;
         bottom: 0%;
         padding: 5px 0px 0px 0px;
     
@@ -295,6 +295,7 @@
     .wrapper1 {
         display: grid;
         grid-gap: 1em;
+        top: 250px;
         grid-template-columns: 100%;
         grid-template-areas:
          "header"

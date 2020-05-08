@@ -20,7 +20,7 @@ function pauseSlideshow(){
 function playSlideshow(){
 	pauseButton.innerHTML = 'Zaustavi';
 	playing = true;
-	slideInterval = setInterval(nextSlide,2000);
+	slideInterval = setInterval(nextSlide,10000);
 }
 
 pauseButton.onclick = function(){
