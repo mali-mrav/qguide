@@ -67,7 +67,9 @@ just for appearance; change whatever you want
     height: 100px;
     top: 100px;
     text-align: center;
-    border: solid 0px black;
+	border: solid 0px black;
+	border-radius: 0px 0px 20px 20px;
+	background-color: oldlace;
 }
 
 #vodic_vrh {
@@ -118,6 +120,28 @@ just for appearance; change whatever you want
 
 #opis_sure_header {
 	position: absolute;
+	top: 1px;
 	width: 100%;
 	height: 35px;
+	border: solid 1px red;
+	text-align: center;
 }
+
+#opis_sure_left {
+	position: absolute;
+	top: 37px;
+	left: 0px;
+	width: 77%;
+	border: solid 1px blue;
+	padding: 15px;
+}
+
+#opis_sure_right {
+	position: absolute;
+	top: 37px;
+	right: 0px;
+	width: 19%;
+	border: solid 1px blueviolet;
+	min-width: 180px;
+}
+
