@@ -236,16 +236,26 @@
         position: absolute;
         top: 45px;
         width: 100%;
-        height: 50px;
+        height: 100px;
         border: solid 0px black;
         margin: 0px;
-        background-color: antiquewhite;
-            
+           
     }
 
     #vodic_vrh img {
         width: 28px;
         height: 28px;;
+    }
+
+    #prijevod_kurana {
+        position: absolute;
+        width: 100%;
+        height: 300px;
+        top: 98px;
+        text-align: center;
+        border: solid 0px black;
+        border-radius: 0px 0px 20px 20px;
+        background-color: #9BA4B4;
     }
     
     #sure {
@@ -296,7 +306,8 @@
         display: grid;
         grid-gap: 1em;
         top: 250px;
-        grid-template-columns: 100%;
+        left: 0.5%;
+        grid-template-columns: 99%;
         grid-template-areas:
          "header"
          "content"

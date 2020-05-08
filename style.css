@@ -369,26 +369,49 @@ body {
 
  .sidebar1 {
   grid-area: sidebar;
-  background-color: #444;
+  background-color: #e9dfca;
   border-radius: 5px;
-  color: #fff;
+  color: #221e18;
   padding-top: 10px;
+
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 }
 
 .content1 {
   grid-area: content;
-  background-color: #444;
-  color: #fff;
-  padding: 25px 15px 15px 15px;
+  background-color: #e9dfca;
+  color: #221e18;
+  padding: 35px;
   border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+
+  background-image: url("images/cosak.png");
+  background-position: left top;
+  background-size: 80px;
+  background-repeat: no-repeat;
+
+  
 }
 
 .header1 {
+display: none;
   grid-area: header;
   text-align: center;
 /*  max-width: 99%; */
-border-radius: 5px;
+border-radius: 0px;
 padding: 15px;
+
+background-image: url('images/streha.png');
+background-position:top;
+background-repeat: repeat-x;
+background-size: round;
+background-size: 50px;
+transform: rotate(180deg);
 }
 
 .footer1 {
@@ -400,16 +423,18 @@ padding: 15px;
 .wrapper1 {
   position: relative;
   display: grid;
-grid-gap: 0.5em;
-  grid-template-columns: 39% 39% 20%;
+grid-gap: 1em;
+  grid-template-columns: 39% 39% 18.5%;
   grid-template-areas:
   "header header header"
   "content content sidebar"
   "footer  footer  footer";
   background-color: #fff;
   color: #444;
-  top: 220px;
-  margin-left: 4px; 
+  top: 260px;
+  margin-left: 1%; 
+
+  
 }
 
 
