@@ -267,21 +267,28 @@
     
     }
     
-    #download {
+   /*#download {
+       width: 100%;
         position: absolute;
         top: 5px;
         right: 5px;
+        border: solid 1px black;
    
-        margin-left: 0px;
-        margin: 0px 0px 0px 0px;
-    }
+
+    } */
 
     #slika_pdf {
-          margin: 13px 10px 0px 0px;
+        position: absolute;
+        right: 0px;
+        top: 5px;
+  
     }
 
     #slika_mp3 {
-        margin: 13px 5px 0px 0px;
+        position: absolute;
+        right: 25px;
+        top: 5px;
+  
     }
 
 

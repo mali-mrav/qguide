@@ -100,3 +100,24 @@ just for appearance; change whatever you want
 
 }
 
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+/* OVDJE STILIZUJEMO OPIS SURE */
+
+
+#opis_sure {
+	position: absolute;
+	width: 100%;
+	top: 200px;
+	height: 100%;
+
+	border: solid 1px black;
+}
+
+#opis_sure_header {
+	position: absolute;
+	width: 100%;
+	height: 35px;
+}
