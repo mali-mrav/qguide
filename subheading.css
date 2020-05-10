@@ -1,3 +1,11 @@
+#prva_kocka {
+    position: relative;
+    width: 84%;
+    height: 75%;
+    top: 70px;
+    left: 8%;
+}
+
 #kutija_slika {
     position: absolute;
     border: solid 1px black;
@@ -25,7 +33,7 @@
 .kutije:nth-child(3):hover,
 .kutije:nth-child(4):hover,
 .kutije:nth-child(5):hover {
-    filter: brightness(0.3);
+    filter: brightness(0.8);
 }
 
 .kutije p {
