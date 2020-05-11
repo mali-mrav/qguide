@@ -19,6 +19,8 @@ these make the slideshow work
 	opacity: 0;
 	z-index: 1;
 
+	font-family: 'Dancing Script', cursive;
+
 	-webkit-transition: opacity 1s;
 	-moz-transition: opacity 1s;
 	-o-transition: opacity 1s;
@@ -38,7 +40,7 @@ just for appearance; change whatever you want
 */
 
 .slide{
-	font-size: 15px;
+	font-size: 20px;
 	padding: 15px;
 	box-sizing: border-box;
 	background: none;
