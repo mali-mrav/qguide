@@ -449,3 +449,28 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   
 }
 
+
+.info {
+  margin: 20px;
+  padding: 45px 40px 45px 40px;
+
+  border-radius: 5px;
+
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+
+  background-image: url("images/cosak_lijevi.png"), url("images/cosak_desni.png"), url("images/cosak_desni_dolje.png"), url("images/cosak_lijevi_dolje.png");
+  background-position: left top, right top, right bottom, left bottom;
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-color: white;
+
+  text-align: justify;
+
+}
+
+
+#mali_logo:hover {
+  filter: invert(92%) sepia(56%) saturate(482%) hue-rotate(14deg) brightness(83%) contrast(87%);
+}
