@@ -253,7 +253,7 @@
         top: 30px;
         left: 10px;
         padding: 5px;
-        width: 75px;
+        width: 45px;
         margin: 3px 5px 0px 0px;
   
     }
@@ -269,16 +269,20 @@
     
     #slika_pdf {
         position: absolute;
-        right: 100px;
-        margin-right: 5px;
+        right: 80px;
+        margin-right: 0px;
         padding-top: 5px;
+        width: 30px;
+        height: 30px;
       }
       
       #slika_mp3 {
         position: absolute;
-        right: 55px;
-        margin-right: 5px;
+        right: 40px;
+        margin-right: 0px;
         padding-top: 5px;
+        width: 30px;
+        height: 30px;
       }
 
 
@@ -316,7 +320,7 @@
 
       .top1 {
 
-        height: 250px;
+        height: 75vh;
       }
 
       .sidebar1 {
