@@ -6,6 +6,7 @@
 
 
     #mali_logo {
+        display: none;
         position: absolute;
         width: 25%;
         margin-left: 5px;
@@ -30,12 +31,10 @@
 
     #logo_slika {
         position: absolute;
-        width: 38%;
-        max-width: 38%;
-        max-width: 237px;
-        max-height: 38%;
-        top: 19%;
-        left: 30%;  
+        width: 15%;
+    
+        top: 17%;
+        left: 42.5%;  
     }
 
     #citat {
@@ -251,8 +250,8 @@
     
     #sure {
         position: absolute;
-        top: 5px;
-        left: 0px;
+        top: 30px;
+        left: 10px;
         padding: 5px;
         width: 75px;
         margin: 3px 5px 0px 0px;
@@ -261,36 +260,26 @@
     
     #pause {
         position: absolute;
-        top: 5px;
-        left: 155px;
+        top: 30px;
+        left: 165px;
    
         margin: 0px 5px 0px 5px;
     
     }
     
-   /*#download {
-       width: 100%;
-        position: absolute;
-        top: 5px;
-        right: 5px;
-        border: solid 1px black;
-   
-
-    } */
-
     #slika_pdf {
         position: absolute;
-        right: 0px;
-        top: 5px;
-  
-    }
-
-    #slika_mp3 {
+        right: 100px;
+        margin-right: 5px;
+        padding-top: 5px;
+      }
+      
+      #slika_mp3 {
         position: absolute;
-        right: 33px;
-        top: 5px;
-  
-    }
+        right: 55px;
+        margin-right: 5px;
+        padding-top: 5px;
+      }
 
 
     .wrapper1 {
@@ -298,7 +287,7 @@
         grid-gap: 1em;
         top: 60px;
         left: 0.5%;
-        grid-template-columns: 99%;
+        grid-template-columns: 98%;
         grid-template-areas:
          "top"
          "header"
