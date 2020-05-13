@@ -27,3 +27,8 @@ pauseButton.onclick = function(){
 	if(playing){ pauseSlideshow(); }
 	else{ playSlideshow(); }
 };
+
+
+
+/* IPOD JE SKRIPTA ZA LINK POSLANICI */
+
