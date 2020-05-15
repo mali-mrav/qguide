@@ -4,6 +4,44 @@
       display: none;
     }
 
+    body {
+        background-image: url('images/zlatno_platno.jpg');
+        background-position:center;
+    
+      min-height: 100vh;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+        
+      background-blend-mode: color;
+
+    }
+
+    .kutija_poslanici {
+        position: absolute;
+        top: 60px;
+        width: 93%;
+        margin-left: 2%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 15px;
+        margin-bottom: 0px;
+          background-color: var(--boja-kocki);
+          color: #221e18;
+        
+          border-radius: 5px;
+        
+          -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+          -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+          box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+        
+          background-image: url("images/cosak_lijevi.png"), url("images/cosak_desni.png"), url("images/cosak_desni_dolje.png"), url("images/cosak_lijevi_dolje.png");
+          background-position: left top, right top, right bottom, left bottom;
+          background-size: 80px;
+          background-repeat: no-repeat;
+      }
+
 
     #mali_logo {
         display: none;

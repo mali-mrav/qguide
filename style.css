@@ -695,6 +695,7 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   .main-timeline .timeline-content,
   .main-timeline .timeline:nth-child(2n) .timeline-content{ margin-left: 10px; }
   .main-timeline .post{ margin: 5px 0; }
+
 }
 
 
@@ -705,6 +706,7 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   top: 60px;
   width: 96%;
   margin-left: 2%;
+  padding-top: 0px;
   margin-bottom: 90px;
     background-color: var(--boja-kocki);
     color: #221e18;
