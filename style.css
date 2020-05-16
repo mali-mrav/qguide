@@ -375,6 +375,13 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   right: 125px;
   margin-right: 5px;
   padding-top: 5px;
+
+
+}
+
+#slika_pdf:hover {
+   
+  opacity: 0.6;
 }
 
 #slika_mp3 {
@@ -382,6 +389,11 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   right: 80px;
   margin-right: 5px;
   padding-top: 5px;
+}
+
+#slika_mp3:hover {
+   
+  opacity: 0.6;
 }
 
 
@@ -439,7 +451,8 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   grid-template-areas:
   "header header header"
   "top top top"
-  "content content sidebar";
+  "content content sidebar"
+  "content2 content2 content2";
   background-color: none;
   color: #444;
   top: 39px;
@@ -725,3 +738,46 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
     background-size: 80px;
     background-repeat: no-repeat;
 }
+
+
+
+.wrapper2 {
+  position: relative;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 98%;
+  grid-template-areas:
+  "content2";
+  background-color: none;
+  color: #444;
+  top: 60px;
+  margin-left: 2%; 
+  border: solid 0px white;
+
+  
+}
+
+.content2 {
+
+  grid-area: content2;
+
+  background-color: var(--boja-kocki);
+  color: #221e18;
+  padding: 50px;
+  border-radius: 5px;
+  margin-left: 0%;
+
+  position: absolute;
+  margin-bottom: 90px;
+  
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+
+  background-image: url("images/cosak_lijevi.png"), url("images/cosak_desni.png"), url("images/cosak_desni_dolje.png"), url("images/cosak_lijevi_dolje.png");
+  background-position: left top, right top, right bottom, left bottom;
+  background-size: 80px;
+  background-repeat: no-repeat;
+
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="bs">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="subheading.css">
+        <link rel="stylesheet" href="lungs.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="images/icon.png" type="image/gif" sizes="32x30">
+
+        <link rel=stylesheet href="random_quotes.css" type="text/css"> 
+        <script src="jquery.min.js"></script> 
+        <script src="show_random_quotes.js"></script> 
+        <link rel="stylesheet" href="media.css">
+        <script src="slide.js"></script> 
+        <link rel="stylesheet" href="slide.css">
+
+        
+        
+
+
+
+        <title>Uči - Čitaj</title>
+
+    </head>
+
+    <body>
+
+        <div id="sredina">
+            
+            <header class="header">
+  <a href="" class="logo"><img src="images/logo.png" id="mali_logo" width="30px"></img></a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="vjerovanje.html">Vjerovánje</a></li>
+    <li><a href="poslanici.html">Poslanici</a></li>
+    <li><a href="vodic.html">Vodič</a></li>
+    <li><a href="arbeica.html">Arebica</a></li>
+    <li><a href="kontakt.html">Kontakt</a></li>
+  </ul>
+</header>
+
+
+        <div id="contact2" class="sekcije">
+
+            <div id="contact_sehara" class="kutije">
+                <div id="contact_lijeva"><h2>Kontaktirajte nas</h2><p>Ovdje ce pisati tekst o tome da svako moze i treba da nas kontaktira ukoliko ima pitanja ili zeli da nam da neki prijedlog.</p></div>
+                <div id="contact_desna"><h2>Pošaljite poruku</h2>
+                    <form id="contact-form" method="post" action="contact-form-handler.php">                      
+                        <input type="text" name="name" id="name" class="form-control" placeholder="ime" autocomplete="off" required>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="e-mail" autocomplete="off" required>
+                        <textarea name="message" class="form-control" rows="6" minlength="10" maxlength="20" form="usrform" placeholder="Poruka..." required></textarea><br>
+                        <input type="submit" name="submit" class="form-control submit" id="submit" value="POŠALJI">
+                        </form>
+                </div>
+            </div>
+
+
+            <div id="footer">2020 © <a href="index.html">w w w . u č i  -  č i t a j . c o m</a>&nbsp;&nbsp; | &nbsp;&nbsp; KONTAKT &nbsp;&nbsp;|&nbsp;&nbsp; <a href="info.html" target="blank">INFO</a></div>
+            
+        </div>
+
+        <script>
+            $( function () {
+                 showRandomQuotes();
+               }
+             )
+            </script>
+
+    </body>
+</html>
