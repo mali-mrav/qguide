@@ -121,12 +121,12 @@ input[type="submit"]:active{
 #footer {
     position: absolute;
     bottom: 0;
-    padding: 5px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 
     width: 100%;
-    height: 45px;
+    height: 35px;
 
-    color: white;
+    color: black;
 
     text-align: center;
 
@@ -136,19 +136,20 @@ input[type="submit"]:active{
     font-family: "Varela Round", sans-serif;
     font-size: 14px;
 
-    background-color: hsla(43, 100%, 10%, 0.4);  
+    background: #4b2703;
+    background: linear-gradient(90deg, #4b2703 0%, rgba(233,223,202,1) 46%); 
 }
 
 #footer a{
     font-family: "Varela Round", sans-serif;
     font-size: 14px;
-    color: white;
+    color: black;
 }
 
 #footer a:hover{
     font-family: "Varela Round", sans-serif;
     font-size: 14px;
-    color: gold;
+    color: #4b2703;
 }
 
 #footer2 {
