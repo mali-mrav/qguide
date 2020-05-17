@@ -100,11 +100,12 @@
 
     #contact_lijeva {
         position: absolute;
-        width: 45%;
-        height: 70%;
+        width: 50%;
+        height: 100%;
+        padding-top: 15px;
     
-        top: 10%;
-        left: 5%;
+        top: 0%;
+        left: 0%;
         border: solid 0px black;
         background-color: #af9274;
         color: black;
@@ -123,11 +124,12 @@
     
     #contact_desna {
         position: absolute;
-        width: 45%;
-        height: 70%;
+        width: 50%;
+        height: 100%;
         min-height: 360px;
+        padding-top: 15px;
     
-        top: 10%;
+        top: 0%;
         left: 50%;
         border: solid 0px black;
         background-color: #946f4a;
@@ -274,38 +276,32 @@
         grid-template-columns: 98%;
         grid-template-areas:
          "top"
-         "header"
          "content"
          "sidebar"
          "footer"
       }
 
-      .header1 {
-display: none;
-        grid-area: header;
-        text-align: center;
-      /*  max-width: 99%; */
-      border-radius: 0px;
-      padding: 15px;
-      min-height: 180px;
-      
-      background-image: url('images/pjesak.jpg');
-      background-position:top;
-      background-repeat: repeat-x;
-      background-size: round;
-      background-size: 100%;
-      border-radius: 0px 0px 15px 15px;
-      
-      }
 
       .top1 {
 
         height: 420px;
       }
 
+      .content1 {
+        grid-area: content;
+        background-color: var(--boja-kocki);
+        color: #221e18;
+        padding: 50px;
+        border-radius: 5px;
+        margin-left: 1.5%;
+        margin-bottom: 0px;
+      
+      }
+
       .sidebar1 {
           margin-left: 1.5%;
-      }
+
+    }
 
 
 
