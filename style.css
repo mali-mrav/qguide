@@ -38,12 +38,13 @@ body:after {
   left: 0;
   height: 100%;
   width: 100%;
+  background-size: 100% 100%;
   content: '';
   background-image: url(images/zlatno_platno.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e9dfca;
-  background-position: bottom right;
+  background-position: top;
   z-index: -1;
 }
 
