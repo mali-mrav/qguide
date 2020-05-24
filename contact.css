@@ -119,8 +119,6 @@ input[type="submit"]:active{
 
 
 #footer {
-    position: absolute;
-    bottom: 0;
     padding: 10px 0px 0px 0px;
 
     width: 100%;
