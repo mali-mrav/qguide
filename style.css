@@ -822,6 +822,7 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
 
 
 .wrapper2 {
+  position: relative;
   display: grid;
   grid-gap: 1em;
   grid-template-columns: 98%;
@@ -829,6 +830,7 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   "content2";
   background-color: none;
   color: #444;
+  top: 60px;
   margin-left: 2%; 
   border: solid 0px white;
 
@@ -846,7 +848,8 @@ box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
   padding: 50px;
   border-radius: 5px;
   margin-left: 0%;
-	margin-top: 60px;
+
+  position: absolute;
   margin-bottom: 90px;
   
     -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
