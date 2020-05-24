@@ -44,7 +44,7 @@ body:after {
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #e9dfca;
-  background-position: top;
+  background-position: top center;
   z-index: -1;
 }
 
