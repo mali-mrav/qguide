@@ -7,7 +7,16 @@
 }
 
 body {
+ /*   background-image: url('images/zlatno_platno.jpg');
+    background-position:center;
 
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+  background-blend-mode: color; */
 
   font-family: "Varela Round", sans-serif; 
 
@@ -21,6 +30,21 @@ body {
 -o-animation: fadeIn ease 2s;
 -ms-animation: fadeIn ease 2s;
 
+}
+
+body:after {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: '';
+  background-image: url(images/zlatno_platno.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e9dfca;
+  background-position: bottom right;
+  z-index: -1;
 }
 
 @keyframes fadeIn {
