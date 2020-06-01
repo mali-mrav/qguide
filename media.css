@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1200px) 
 {
-    #linkovi, #strelica_1, #strelica_2, #strelica_3, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #meni, #contact {
+    #linkovi, #strelica_1, #strelica_2, #strelica_3, #kutija_slika, #kutija_vjerovanje, #kutija_poslanici, #kutija_vodic, #informacija, #kutija_info, #meni, #contact {
       display: none;
     }
 
@@ -214,9 +214,9 @@
 
     
     #sure {
-        position: absolute;
-        top: 30px;
-        left: 10px;
+        position: unset;
+
+
         padding: 5px;
         width: 120px !important;
         margin: 0px;
@@ -254,9 +254,10 @@
     .wrapper1 {
         display: grid;
         grid-gap: 1em;
-        top: 60px;
+        margin-top: 60px;
         left: 0.5%;
         grid-template-columns: 98%;
+        grid-template-rows: 490px;
         grid-template-areas:
          "top"
          "content"
@@ -266,7 +267,7 @@
 
 
       .top1 {
-
+        grid-area: top;
         height: 420px;
       }
 
@@ -282,6 +283,7 @@
       }
 
       .sidebar1 {
+        grid-area: sidebar;
           margin-left: 1.5%;
 
     }
